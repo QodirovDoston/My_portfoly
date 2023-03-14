@@ -1,4 +1,37 @@
+.hi{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+margin: 230px 0px 40px 0px;
+}
+.amet{
+    font-family: 'Heebo';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+}
 
+.btn{
+    background: #FF6464;
+border-radius: 2px;
+font-family: 'Heebo';
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+margin: 38px 0px 70px 0px;
+color: #FFFFFF;
+}
+
+ .my_img{
+    margin-top: 180px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+ }
 /* =========================== media qilamiz  */
 
 

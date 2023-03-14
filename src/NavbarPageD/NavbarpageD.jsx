@@ -13,7 +13,7 @@ const NavbarpageD = () => {
         <Container >
           <Navbar  bg="light" expand="lg">
           <Container fluid>
-          {/* <Navbar.Brand href="#"></Navbar.Brand>   */}
+          <Navbar.Brand href="#"></Navbar.Brand>  
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
                 <Nav
@@ -33,10 +33,10 @@ const NavbarpageD = () => {
           <Row className="justify-content-between  container">
             <Col xs={5}>
               <section className="navbar_content">
-                <h1 >Hi, I am Doston,<br />
+                <h1 className='hi' >Hi, I am Doston,<br />
                   Creative Technologist</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br /> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam  <br /> consequat sunt nostrud amet.</p>
-                <button className='btn btn-primary'>Download Resume</button>
+                <p className='amet'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br /> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam  <br /> consequat sunt nostrud amet.</p>
+                <button className='btn'>Download Resume</button>
               </section>
             </Col>
             <Col xs={3}>

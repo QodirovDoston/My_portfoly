@@ -85,16 +85,16 @@ const NavD = () => {
           </Col>
           <Col xs={6}>
             <div className="nimadur">
-              <h1>{title}</h1>
+              <h1 className='title'>{title}</h1>
               <div className="ikita">
                 <a href={GitHub}>
-                <button  className='btn'>Github</button>
+                <button  className='btngit'>Github</button>
                 </a>
                 <a  href={demo}>
                 <small style={{color:'black'}}  className='dash1'>Live Demo</small>
                 </a>
               </div>
-              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              <p className='porsa'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
           </Col>
         </Row>

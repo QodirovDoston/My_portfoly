@@ -1,16 +1,17 @@
 // import FooterD from "./FooterD/FooterD";
-// import HeaderD from "./HeaderD/HeaderD";
+import NavD from "./NavD/NavD";
+import HeaderD from "./HeaderD/HeaderD";
 import NavbarpageD from "./NavbarPageD/NavbarpageD";
-// import NavD from "./NavD/NavD";
 import React from 'react'
+
 function App() {
   return (
     <>
     <div>
       <NavbarpageD />
-      {/* <HeaderD />
+       <HeaderD />
       <NavD />
-      <FooterD /> */}
+      {/* <FooterD />  */}
     </div>
     </>
   );
