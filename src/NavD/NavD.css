@@ -1,0 +1,66 @@
+
+
+@media screen and (max-width:1024px) {
+    #dost {
+        display: grid !important;
+        margin-left: 38px;
+    }
+
+    .nimadur h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-right: -420px;
+        width: 300px;
+        margin-left: 249px;
+    }
+
+    small {
+        margin-left: 30px;
+        width: 90px;
+        margin: 0px 0px 0px 30px;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .btn {
+        margin: 15px 0px 0px 280px;
+        width: 100px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .nimadur p {
+        text-align: center;
+        display: grid;
+        flex-wrap: wrap;
+        width: 299px;
+        margin-left: 188px;
+    }
+
+    .dost>h6 {
+        margin: 6px 20px 6px 55px;
+    }
+
+    .dash1 {
+        margin-top: -43px;
+        padding-left: 380px;
+        width: 200px;
+        font-size: 20px;
+        display: flex;
+    }
+
+    .nimadur {
+        margin-right: -70px;
+    }
+}
+
+@media screen and (max-width:600px) {
+ .imgfed{
+    width: 340px;
+    height: 247px;
+    margin-left: -50px;
+ }
+ .nimadur h1{
+    margin-left: 196px;
+ }
+}
