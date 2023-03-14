@@ -98,10 +98,10 @@ const NavD = () => {
             </div>
           </Col>
         </Row>
+        <hr/>
             </>
           )
         })}
-            <hr/>
       </Container>
     </div>
     </section>

@@ -1,4 +1,4 @@
-// import FooterD from "./FooterD/FooterD";
+import FooterD from "./FooterD/FooterD";
 import NavD from "./NavD/NavD";
 import HeaderD from "./HeaderD/HeaderD";
 import NavbarpageD from "./NavbarPageD/NavbarpageD";
@@ -11,7 +11,7 @@ function App() {
       <NavbarpageD />
        <HeaderD />
       <NavD />
-      {/* <FooterD />  */}
+      <FooterD /> 
     </div>
     </>
   );
