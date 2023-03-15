@@ -43,18 +43,19 @@ border: none;
     margin-left: -240px;
 }
 @media screen and (max-width:1024px) {
+  
     #dost {
-        display: grid !important;
         margin-left: 38px;
+        display: flex;
     }
 
     .nimadur h1 {
         font-size: 24px;
         text-align: center;
         margin: auto;
-        margin-right: -420px;
-        width: 300px;
-        margin-left: 249px;
+        margin-right: -367px;
+        width: 473px;
+        margin-left: 195px;
     }
 
     .dash1 {
@@ -74,10 +75,10 @@ border: none;
 
     .porsa{
         text-align: center;
-        width: 299px;
+        width: 397px;
         display: flex;
         justify-content: center;
-        margin-left: 258px;
+        margin-left: 245px;
     }
 
 
@@ -91,6 +92,7 @@ border: none;
 
     .nimadur {
         margin-right: -70px;
+        overflow-x: hidden;
     }
 }
 
@@ -98,6 +100,7 @@ border: none;
  .imgfed{
     width: 340px;
     height: 247px;
+    margin-left: -41px;
  }
  .otang{
     margin-top: 40px;
@@ -105,4 +108,63 @@ border: none;
  .fut{
     text-align: center;
  }
+ .nimadur h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    margin-right: -420px;
+    width: 300px;
+    margin-left: 224px;
 }
+.porsa{
+    text-align: center;
+    width: 299px;
+    display: flex;
+    justify-content: center;
+    margin-left: 225px;
+}
+.btngit{
+    margin: 15px 0px 0px 252px;
+}
+.nimadur {
+    margin-right: -70px;
+    overflow-x: hidden;
+}
+}
+
+@media screen and (width:576px) {
+    .imgfed{
+       width: 340px;
+       height: 247px;
+       margin-left: -41px;
+    }
+    .otang{
+       margin-top: 40px;
+    }
+    .fut{
+       text-align: center;
+    }
+    .nimadur h1 {
+       font-size: 24px;
+       text-align: center;
+       margin: auto;
+       margin-right: -420px;
+       width: 300px;
+       margin-left: 224px;
+       overflow-x: hidden;
+   }
+   .porsa{
+       text-align: center;
+       width: 299px;
+       display: flex;
+       justify-content: center;
+       margin-left: 225px;
+   }
+   .btngit{
+       margin: 15px 0px 0px 252px;
+   }
+   .nimadur {
+    margin-right: -70px;
+    overflow-x: hidden;
+}   
+   }

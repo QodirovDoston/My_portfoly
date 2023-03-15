@@ -47,7 +47,24 @@ section {
 /* =========================== media qilamiz  */
 
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+    .hi {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .navbar_content {
+        text-align: center;
+    }
+
+    .my_img {
+        margin: 90px -40px 0px -112px;
+        display: flex;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+}
 
 @media screen and (max-width:576px) {
     .hi {
@@ -66,4 +83,16 @@ section {
         width: 300px;
         height: 300px;
     }
+}
+
+
+@media screen and (max-width:576px) {
+
+.my_img {
+    margin: 5px -40px 0px -6px;
+}
+.gap {
+    width: 229px;
+}
+
 }
