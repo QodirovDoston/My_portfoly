@@ -60,7 +60,9 @@ section {
     }
 
     .my_img {
-        margin: 10px 0px 0px 50px;
+        margin: 5px -40px 0px 62px;
+        display: flex;
+        align-items: center;
         width: 300px;
         height: 300px;
     }

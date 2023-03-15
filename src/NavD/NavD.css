@@ -82,8 +82,8 @@ border: none;
 
 
     .dash1 {
-        margin-top: -43px;
-        padding-left: 380px;
+        margin-top: -31px;
+        margin-left: 407px;
         width: 200px;
         font-size: 20px;
         display: flex;
@@ -101,5 +101,8 @@ border: none;
  }
  .otang{
     margin-top: 40px;
+ }
+ .fut{
+    text-align: center;
  }
 }

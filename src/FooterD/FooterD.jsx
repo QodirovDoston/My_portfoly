@@ -25,8 +25,9 @@ const FooterD = () => {
   const delet_func = (id) => {
     axios.delete(`https://my-json-server-production-a01a.up.railway.app/data/${id}`)
       .then((res) => {
-        alert(res.statusText)
+        console.log(res);
       })
+      setValue(value.filter((el)=>el.id !== id))
   }
 
   const getValues = () => {
@@ -67,11 +68,9 @@ const FooterD = () => {
                     value?.map((val) => {
                       return (
                         <Accordion id='accordion'>
-                          <Accordion.Item eventKey="0">
-                            <Accordion.Header id='names'>{val.name}</Accordion.Header>
-                            <Accordion.Body id='comment-body'>
-                              {val.post}
-                            </Accordion.Body>
+                          <Accordion.Item eventKey="1">
+                            <Accordion id='names'><b>Name: </b>{val.name}</Accordion>
+                            <Accordion id='comment-body'><b>comment: </b> {val.post}</Accordion>
                               <button style={{width:"100%", background:"blue", border:'none' ,color:'white'}} onClick={() => delet_func(val.id)}>delete</button>
                           </Accordion.Item>
                         </Accordion>

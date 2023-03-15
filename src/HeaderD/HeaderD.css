@@ -64,6 +64,8 @@ border: none !important;
     line-height: 26px;
     color: #21243D;
     margin: 24px 21px 20px 23px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -103,11 +105,13 @@ border: none !important;
 }
 .design{
     margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 .view {
     margin-right: 50px;
 }
 .recend {
-    margin-left: 55px;
+    margin-left: 80px;
 }
 }

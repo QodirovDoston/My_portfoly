@@ -3,6 +3,7 @@ import Myimg from '../Images/My_img.jpg'
 import '../NavbarPageD/NavbarD.css'
 import { useState } from 'react';
 import { Col, Container, Form, Nav, Navbar, Row } from 'react-bootstrap';
+import 'animate.css';
 
 const NavbarpageD = () => {
   const [activeNav, setActiveNav] = useState("#")
@@ -34,9 +35,11 @@ const NavbarpageD = () => {
             <Row className="justify-content-between  container">
               <Col className='d-block d-sm-block col-lg-5 col-12'>
                 <section className="navbar_content">
-                  <h1 className='hi' >Hi, I am Doston,<br />
+               
+                  <h1 className='hi animate__hinge' >Hi, I am Doston,<br />
                     Creative Technologist</h1>
-                  <p className='amet'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br /> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam  <br /> consequat sunt nostrud amet.</p>
+                    <h1 class="animate__animated animate__bounce">An animated element</h1>
+                  <p className='amet '>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br /> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam  <br /> consequat sunt nostrud amet.</p>
                   <button className='btndow'>Download Resume</button>
                 </section>
               </Col>
