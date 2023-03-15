@@ -1,43 +1,67 @@
-.hi{
+.hi {
+
     font-family: 'Heebo';
-font-style: normal;
-font-weight: 700;
-font-size: 44px;
-line-height: 60px;
-color: #21243D;
-margin: 230px 0px 40px 0px;
-}
-.amet{
-    font-family: 'Heebo';
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #21243D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin: 230px 0px 40px 0px;
 }
 
-.btn{
+.amet {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.btndow {
     background: #FF6464;
-border-radius: 2px;
-font-family: 'Heebo';
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
-margin: 38px 0px 70px 0px;
-color: #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 38px 0px 70px 0px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
 }
 
- .my_img{
-    margin-top: 180px;
+.my_img {
+    margin: 160px 0px 0px -90px;
     border-radius: 50%;
     width: 500px;
     height: 500px;
- }
+
+}
+
+section {
+    flex-wrap: wrap;
+}
+
 /* =========================== media qilamiz  */
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {}
 
-}
-@media screen and (max-width:600px){
- 
+@media screen and (max-width:576px) {
+    .hi {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .navbar_content {
+        text-align: center;
+    }
+
+    .my_img {
+        margin: 10px 0px 0px 50px;
+        width: 300px;
+        height: 300px;
+    }
 }

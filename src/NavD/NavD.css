@@ -40,7 +40,7 @@ color: aliceblue;
 border: none;
 }
 .nimadur{
-    margin-left: -200px;
+    margin-left: -240px;
 }
 @media screen and (max-width:1024px) {
     #dost {
@@ -51,37 +51,35 @@ border: none;
     .nimadur h1 {
         font-size: 24px;
         text-align: center;
+        margin: auto;
         margin-right: -420px;
         width: 300px;
         margin-left: 249px;
     }
 
-    small {
-        margin-left: 30px;
-        width: 90px;
+    .dash1 {
+       
         margin: 0px 0px 0px 30px;
         text-decoration: none;
         display: flex;
     }
 
-    .btn {
+    .btngit {
+        margin: auto;
         margin: 15px 0px 0px 280px;
         width: 100px;
         height: 35px;
         font-size: 20px;
     }
 
-    .nimadur p {
+    .porsa{
         text-align: center;
-        display: grid;
-        flex-wrap: wrap;
         width: 299px;
-        margin-left: 188px;
+        display: flex;
+        justify-content: center;
+        margin-left: 258px;
     }
 
-    .dost>h6 {
-        margin: 6px 20px 6px 55px;
-    }
 
     .dash1 {
         margin-top: -43px;
@@ -96,13 +94,12 @@ border: none;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
  .imgfed{
     width: 340px;
     height: 247px;
-    margin-left: -50px;
  }
- .nimadur h1{
-    margin-left: 196px;
+ .otang{
+    margin-top: 40px;
  }
 }

@@ -80,10 +80,10 @@ const NavD = () => {
           return(
             <>
         <Row key={id} id='dost' className='justify-content-between mt-5'>
-          <Col xs={3}>
+          <Col className='d-block d-sm-block col-lg-3 col-12'>
             <img className='imgfed' src={img} alt="" />
           </Col>
-          <Col xs={6}>
+          <Col className='d-block d-sm-block col-lg-6 col-12'>
             <div className="nimadur">
               <h1 className='title'>{title}</h1>
               <div className="ikita">
