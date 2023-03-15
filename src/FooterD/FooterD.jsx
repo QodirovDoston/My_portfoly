@@ -6,7 +6,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import React, { useEffect, useState } from 'react'
 import { Accordion, Button, Col, Container, Form, Row } from 'react-bootstrap'
 import './FooterD.css'
-import { border } from '@mui/system';
 
 
 const FooterD = () => {
