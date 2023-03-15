@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import React, { useEffect, useState } from 'react'
 import { Accordion, Button, Col, Container, Form, Row } from 'react-bootstrap'
 import './FooterD.css'
+import { border } from '@mui/system';
 
 
 const FooterD = () => {
@@ -16,6 +17,14 @@ const FooterD = () => {
 
   const postComments = () => {
     axios.post("https://my-json-server-production-a01a.up.railway.app/data", { name: postName, post: postComment })
+      .then((res) => {
+        alert(res.statusText)
+      })
+  }
+
+
+  const delet_func = (id) => {
+    axios.delete(`https://my-json-server-production-a01a.up.railway.app/data/${id}`)
       .then((res) => {
         alert(res.statusText)
       })
@@ -64,6 +73,7 @@ const FooterD = () => {
                             <Accordion.Body id='comment-body'>
                               {val.post}
                             </Accordion.Body>
+                              <button style={{width:"100%", background:"blue", border:'none' ,color:'white'}} onClick={() => delet_func(val.id)}>delete</button>
                           </Accordion.Item>
                         </Accordion>
                       )
