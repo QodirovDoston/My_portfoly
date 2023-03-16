@@ -89,13 +89,16 @@
     .card {
         width: 359px
     }
-    .make{
+
+    .make {
         width: 293px;
     }
+
     .card {
         width: 340px;
         margin-left: -30px;
     }
+
     .view {
         margin-right: 0px;
     }
@@ -107,7 +110,31 @@
         margin-top: 95px;
         background: #EDF7FA;
     }
-    
+
+}
+
+@media screen and (width:768px) {
+    .card {
+        width: 340px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .recend {
+        margin-left: 180px;
+    }
+
+    .view {
+        margin-right: 180px;
+    }
+}
+
+#blog {
+    width: 100%;
+    height: 946px;
+    left: 0px;
+    margin-top: 95px;
+    background: #EDF7FA;
 }
 
 @media screen and (max-width:576px) {

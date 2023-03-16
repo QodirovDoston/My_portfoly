@@ -7,12 +7,12 @@ import React from 'react'
 function App() {
   return (
     <>
-    <div>
-      <NavbarpageD />
-       <HeaderD />
-      <NavD />
-      <FooterD /> 
-    </div>
+      <div className="fixed-content">
+        <NavbarpageD id="sidebar"/>
+        <HeaderD/>
+        <NavD />
+        <FooterD />
+      </div>
     </>
   );
 }
