@@ -8,7 +8,7 @@
 
 #blog {
     width: 100%;
-    height: 426px;
+    height: 426px !important;
     left: 0px;
     margin-top: 95px;
     background: #EDF7FA;
@@ -68,7 +68,6 @@
     align-items: center;
 
 }
-
 .poragrow {
     font-family: 'Heebo';
     font-style: normal;
@@ -85,93 +84,95 @@
         display: grid;
         flex-wrap: wrap;
     }
-
-    .card {
-        width: 359px
+        
+        .card {
+            width: 359px
+        }
+        
+        .make {
+            width: 293px;
+        }
+        
+        .card {
+            width: 340px;
+            margin-left: -30px;
+        }
+        
+        .view {
+            margin-right: 0px;
+        }
+        
+        #blog {
+            width: 100%;
+            height: 526px;
+            left: 0px;
+            margin-top: 95px;
+            background: #EDF7FA;
+            
+        }
+        
     }
-
-    .make {
-        width: 293px;
+    @media screen and (width:768px) {
+        .card {
+            width: 340px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .recend {
+            margin-left: 180px;
+        }
+        
+        .view {
+            margin-right: 180px;
+        }
     }
-
-    .card {
-        width: 340px;
-        margin-left: -30px;
-    }
-
-    .view {
-        margin-right: 0px;
-    }
-
+    
     #blog {
         width: 100%;
-        height: 526px;
+        height: 946px;
         left: 0px;
         margin-top: 95px;
         background: #EDF7FA;
     }
-
-}
-
-@media screen and (width:768px) {
-    .card {
-        width: 340px;
-        text-align: center;
-        margin: auto;
+    
+    
+    @media screen and (max-width:576px) {
+        .card {
+            width: 340px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        #blog {
+            width: 100%;
+            height: 916px;
+            left: 0px;
+            background: #EDF7FA;
+        }
+        
+        .make {
+            width: 288px;
+        }
+        
+        .sana {
+            display: flex;
+            
+            width: 200px;
+        }
+        
+        .design {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .view {
+            margin-right: 50px;
+        }
+        
+        .recend {
+            margin-left: 80px;
+        }
+        
     }
-
-    .recend {
-        margin-left: 180px;
-    }
-
-    .view {
-        margin-right: 180px;
-    }
-}
-
-#blog {
-    width: 100%;
-    height: 946px;
-    left: 0px;
-    margin-top: 95px;
-    background: #EDF7FA;
-}
-
-@media screen and (max-width:576px) {
-    .card {
-        width: 340px;
-        text-align: center;
-        margin: auto;
-    }
-
-    #blog {
-        width: 100%;
-        height: 916px;
-        left: 0px;
-        background: #EDF7FA;
-    }
-
-    .make {
-        width: 288px;
-    }
-
-    .sana {
-        display: flex;
-
-        width: 200px;
-    }
-
-    .design {
-        margin-top: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .view {
-        margin-right: 50px;
-    }
-
-    .recend {
-        margin-left: 80px;
-    }
-}
